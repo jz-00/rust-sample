@@ -8,4 +8,4 @@ This project intended to implement the following services for a wine app:
 -   media upload/download
 -   web app
 
-**_This project was not completed and should only be viewed as code samples._**
+**_NOTE: This project was not completed and should only be viewed as code samples._**
