@@ -1,0 +1,15 @@
+[package]
+name = "auth"
+version = "0.1.0"
+authors = ["jz-00 <jz-00@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+name = "auth"
+path = "src/lib.rs"
+
+[dependencies]
+db = { path = "../db" }
+
+log = "0.4"
+anyhow = "1.0"

@@ -1,0 +1,22 @@
+{
+    "network": {
+        "port": 8080,
+        "security": {
+            "enabled": false,
+            "cert": "/Users/user/.config/server/127.0.0.1.pem",
+            "key": "/Users/user/.config/server/127.0.0.1-key-rsa.pem"
+        }
+    },
+    "services": {
+        "files": {
+            "static_dir": "/Users/user/static"
+        },
+        "graphiql": {},
+        "graphql": {},
+        "upload": {
+            "upload_dir": "/Users/user/static/images",
+            "serving_url": "https://localhost/static/images"
+        },
+        "www": {}
+    }
+}

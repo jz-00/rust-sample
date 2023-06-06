@@ -1,0 +1,20 @@
+[package]
+name = "graphql"
+version = "0.1.0"
+authors = ["jz-00 <jz-00@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+name = "graphql"
+path = "src/lib.rs"
+
+[dependencies]
+db = { path = "../db" }
+auth = { path = "../auth" }
+
+log = "0.4"
+anyhow = "1.0"
+juniper = { git = "https://github.com/graphql-rust/juniper" }
+# sqlx = { path = "../../sqlx", default-features = false, features = ["offline", "runtime-tokio", "macros", "postgres", "time", "json", "tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

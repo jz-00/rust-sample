@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "auth",
+    "diesel-postgis-geometry",
+    "db",
+    "graphql",
+    "server"
+]

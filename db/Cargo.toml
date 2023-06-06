@@ -1,0 +1,20 @@
+[package]
+name = "db"
+version = "0.1.0"
+authors = ["jz-00 <jz-00@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4"
+anyhow = "1.0"
+thiserror = "1"
+dotenv = "0.15.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+strum = "0.19"
+strum_macros = "0.19"
+bytes = "0.5"
+sqlx = { path = "../../sqlx", default-features = false, features = ["runtime-tokio", "macros", "postgres", "time", "json", "tls"] }
+tokio = { version = "0.2", features = ["macros"] }
+time = { version = "0.2", features = ["serde"] }
+async-trait = "0.1.40"
